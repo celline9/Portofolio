@@ -1,0 +1,64 @@
+.window {
+  position: fixed;
+  width: min(460px, 92vw);
+  max-height: calc(100vh - 150px);
+  display: flex;
+  flex-direction: column;
+  background: var(--glass);
+  backdrop-filter: blur(22px);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
+  animation: in 0.18s ease-out;
+}
+.window.wide {
+  width: min(680px, 92vw);
+}
+@keyframes in {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
+.window__bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--line);
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+  font:
+    500 13px ui-monospace,
+    monospace;
+  color: var(--muted);
+}
+.window__bar button {
+  background: none;
+  border: 0;
+  color: var(--muted);
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+.window__bar button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.window__body {
+  padding: 20px 22px 24px;
+  overflow: auto;
+}
+.window__body p {
+  margin: 0 0 12px;
+}
+.window h2 {
+  font-size: 28px;
+  margin: 4px 0 10px;
+}
+.window h4 {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 16px 0 6px;
+}

@@ -1,0 +1,12 @@
+:root {
+  --bg: #eb9383;
+  --glass: rgba(48, 32, 8, 0.72);
+  --line: rgba(255, 255, 255, 0.12);
+  --text: #ffffff;
+  --muted: #ffffff;
+  --a: #ffcb7c;
+  --b: #e8d7ff;
+  --c: #f0abfc;
+  --softblush: #ffd7d5;
+  --black: #000000;
+}

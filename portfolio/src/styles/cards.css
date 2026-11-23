@@ -1,0 +1,26 @@
+.card {
+  text-align: left;
+  padding: 20px;
+  background: var(--glass);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  transition:
+    transform 0.2s,
+    border-color 0.2s;
+}
+.card:hover {
+  transform: translateY(-4px);
+  border-color: var(--a);
+}
+.card small {
+  color: var(--a);
+}
+.card h3 {
+  font-size: 18px;
+  margin: 6px 0;
+}
+.card p {
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-size: 14px;
+}

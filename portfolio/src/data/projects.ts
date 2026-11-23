@@ -26,9 +26,11 @@ export const projects: Project[] = [
     intro:
       'An analysis of bank loan applications that looks at which applicant details, such as income, credit history and loan amount, are linked to approval or rejection.',
     kpis: [
-      { value: '—', label: 'loan applications analysed' },
-      { value: '—', label: 'overall approval rate' },
-      { value: '—', label: 'strongest approval factor' },
+      { value: '38,576', label: 'loan applications analysed' },
+      { value: '435,8 M', label: 'total funded amount' },
+      { value: '473,1 M', label: 'total payments' },
+      { value: '12.05%', label: 'average interest rate' },
+      { value: '13.31%', label: 'average DTI' },
     ],
     tools: ['Python', 'pandas', 'Data analysis'],
     download:"/donwloads/financial_loan.zip"
@@ -42,9 +44,9 @@ export const projects: Project[] = [
     intro:
       'A data warehouse that pulls data from source systems into a clean, structured model, so reports and dashboards read from one consistent place.',
     kpis: [
-      { value: '—', label: 'source tables loaded' },
-      { value: '—', label: 'fact and dimension tables' },
-      { value: '—', label: 'data quality checks passed' },
+      // { value: '—', label: 'source tables loaded' },
+      { value: '8', label: 'dimension tables' },
+      { value: '4', label: 'fact tables' },
     ],
     tools: ['SQL', 'ETL', 'Dimensional modelling'],
     download:"/donwloads/data_warehouse.zip"
@@ -59,8 +61,8 @@ export const projects: Project[] = [
       'A data warehouse that pulls data from source systems into a clean, structured model, so reports and dashboards read from one consistent place.',
     kpis: [
       { value: '—', label: 'source tables loaded' },
-      { value: '—', label: 'fact and dimension tables' },
-      { value: '—', label: 'data quality checks passed' },
+      { value: '8', label: 'dimension tables' },
+      { value: '4', label: 'data quality checks passed' },
     ],
     tools: ['SQL', 'ETL', 'Dimensional modelling'],
   },
